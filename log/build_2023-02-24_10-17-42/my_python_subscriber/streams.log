@@ -1,0 +1,18 @@
+[2.638s] Invoking command in '/home/dev/ros2_ws/build/my_python_subscriber': PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/ros2_ws/build/my_python_subscriber/build --no-deps install_data
+[3.320s] running develop
+[3.722s] running egg_info
+[3.723s] writing my_python_subscriber.egg-info/PKG-INFO
+[3.725s] writing dependency_links to my_python_subscriber.egg-info/dependency_links.txt
+[3.726s] writing entry points to my_python_subscriber.egg-info/entry_points.txt
+[3.726s] writing requirements to my_python_subscriber.egg-info/requires.txt
+[3.726s] writing top-level names to my_python_subscriber.egg-info/top_level.txt
+[3.808s] reading manifest file 'my_python_subscriber.egg-info/SOURCES.txt'
+[3.812s] writing manifest file 'my_python_subscriber.egg-info/SOURCES.txt'
+[3.905s] running build_ext
+[3.906s] Creating /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my-python-subscriber.egg-link (link to .)
+[3.909s] Installing my_python_subscriber_node script to /home/dev/ros2_ws/install/my_python_subscriber/lib/my_python_subscriber
+[3.911s] 
+[3.912s] Installed /home/dev/ros2_ws/build/my_python_subscriber
+[3.913s] running install_data
+[3.913s] copying package.xml -> /home/dev/ros2_ws/install/my_python_subscriber/share/my_python_subscriber
+[3.979s] Invoked command in '/home/dev/ros2_ws/build/my_python_subscriber' returned '0': PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/ros2_ws/build/my_python_subscriber/build --no-deps install_data

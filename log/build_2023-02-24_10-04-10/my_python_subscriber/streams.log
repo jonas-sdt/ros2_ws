@@ -1,0 +1,19 @@
+[2.598s] Invoking command in '/home/dev/ros2_ws/build/my_python_subscriber': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/ros2_ws/build/my_python_subscriber/build --no-deps install_data
+[3.345s] running develop
+[3.755s] running egg_info
+[3.756s] writing my_python_subscriber.egg-info/PKG-INFO
+[3.756s] writing dependency_links to my_python_subscriber.egg-info/dependency_links.txt
+[3.756s] writing entry points to my_python_subscriber.egg-info/entry_points.txt
+[3.756s] writing requirements to my_python_subscriber.egg-info/requires.txt
+[3.757s] writing top-level names to my_python_subscriber.egg-info/top_level.txt
+[3.856s] reading manifest file 'my_python_subscriber.egg-info/SOURCES.txt'
+[3.860s] writing manifest file 'my_python_subscriber.egg-info/SOURCES.txt'
+[3.964s] running build_ext
+[3.966s] Creating /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/site.py
+[3.973s] Creating /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my-python-subscriber.egg-link (link to .)
+[3.976s] Installing my_python_subscriber_node script to /home/dev/ros2_ws/install/my_python_subscriber/lib/my_python_subscriber
+[3.977s] 
+[3.977s] Installed /home/dev/ros2_ws/build/my_python_subscriber
+[3.977s] running install_data
+[3.978s] copying package.xml -> /home/dev/ros2_ws/install/my_python_subscriber/share/my_python_subscriber
+[4.063s] Invoked command in '/home/dev/ros2_ws/build/my_python_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/dev/ros2_ws/build/my_python_subscriber/build --no-deps install_data

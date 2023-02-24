@@ -1,0 +1,144 @@
+[0.068s] Invoking command in '/home/dev/ros2_ws/build/my_msg_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy /usr/bin/cmake /home/dev/ros2_ws/src/my_msg_types -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/my_msg_types
+[0.132s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.184s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.683s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.712s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[20.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.645s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[20.930s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[36.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[36.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[36.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[36.719s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[36.783s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36.783s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[36.783s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[36.835s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[36.893s] -- Added test 'copyright' to check source files copyright and LICENSE
+[36.901s] -- Added test 'lint_cmake' to check CMake code style
+[36.904s] -- Added test 'xmllint' to check XML markup files
+[36.931s] -- Configuring done
+[37.046s] -- Generating done
+[37.056s] -- Build files have been written to: /home/dev/ros2_ws/build/my_msg_types
+[37.074s] Invoked command in '/home/dev/ros2_ws/build/my_msg_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy /usr/bin/cmake /home/dev/ros2_ws/src/my_msg_types -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/my_msg_types
+[37.080s] Invoking command in '/home/dev/ros2_ws/build/my_msg_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/dev/ros2_ws/build/my_msg_types -- -j2 -l2
+[37.223s] [  3%] Built target my_msg_types__cpp
+[37.239s] [  6%] [32mBuilding C object CMakeFiles/my_msg_types__rosidl_generator_c.dir/rosidl_generator_c/my_msg_types/msg/detail/my_msg__functions.c.o[0m
+[37.292s] [  9%] [32mBuilding CXX object CMakeFiles/my_msg_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msg_types/msg/detail/my_msg__type_support.cpp.o[0m
+[37.640s] [ 12%] [32m[1mLinking C shared library libmy_msg_types__rosidl_generator_c.so[0m
+[38.024s] [ 16%] Built target my_msg_types__rosidl_generator_c
+[38.087s] [ 19%] [32mBuilding CXX object CMakeFiles/my_msg_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msg_types/msg/my_msg__type_support.cpp.o[0m
+[38.408s] [ 22%] [32m[1mLinking CXX shared library libmy_msg_types__rosidl_typesupport_introspection_cpp.so[0m
+[38.873s] [ 25%] Built target my_msg_types__rosidl_typesupport_introspection_cpp
+[38.944s] [ 29%] [32mBuilding CXX object CMakeFiles/my_msg_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msg_types/msg/detail/dds_fastrtps/my_msg__type_support.cpp.o[0m
+[39.372s] [ 32%] [32m[1mLinking CXX shared library libmy_msg_types__rosidl_typesupport_cpp.so[0m
+[39.855s] [ 35%] Built target my_msg_types__rosidl_typesupport_cpp
+[39.902s] [ 38%] [32mBuilding C object CMakeFiles/my_msg_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msg_types/msg/detail/my_msg__type_support.c.o[0m
+[39.993s] [ 41%] [32m[1mLinking C shared library libmy_msg_types__rosidl_typesupport_introspection_c.so[0m
+[40.270s] [ 45%] Built target my_msg_types__rosidl_typesupport_introspection_c
+[40.333s] [ 48%] [32mBuilding CXX object CMakeFiles/my_msg_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msg_types/msg/my_msg__type_support.cpp.o[0m
+[40.441s] [ 51%] [32m[1mLinking CXX shared library libmy_msg_types__rosidl_typesupport_c.so[0m
+[40.758s] [ 54%] Built target my_msg_types__rosidl_typesupport_c
+[41.060s] [ 58%] [32m[1mLinking CXX shared library libmy_msg_types__rosidl_typesupport_fastrtps_cpp.so[0m
+[41.561s] [ 61%] Built target my_msg_types__rosidl_typesupport_fastrtps_cpp
+[41.618s] [ 64%] [32mBuilding CXX object CMakeFiles/my_msg_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msg_types/msg/detail/my_msg__type_support_c.cpp.o[0m
+[42.860s] [ 67%] [32m[1mLinking CXX shared library libmy_msg_types__rosidl_typesupport_fastrtps_c.so[0m
+[43.321s] [ 70%] Built target my_msg_types__rosidl_typesupport_fastrtps_c
+[43.389s] [ 70%] Built target my_msg_types
+[43.446s] [ 74%] Built target my_msg_types__py
+[43.539s] [ 77%] [32mBuilding C object CMakeFiles/my_msg_types__python.dir/rosidl_generator_py/my_msg_types/msg/_my_msg_s.c.o[0m
+[43.993s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_msg_types/libmy_msg_types__python.so[0m
+[44.335s] [ 80%] Built target my_msg_types__python
+[44.406s] [ 83%] [32mBuilding C object CMakeFiles/my_msg_types__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msg_types/_my_msg_types_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[44.411s] [ 87%] [32mBuilding C object CMakeFiles/my_msg_types__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msg_types/_my_msg_types_s.ep.rosidl_typesupport_c.c.o[0m
+[44.783s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/my_msg_types/my_msg_types_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[44.828s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_msg_types/my_msg_types_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[45.160s] [ 93%] Built target my_msg_types__rosidl_typesupport_introspection_c__pyext
+[45.196s] [ 93%] Built target my_msg_types__rosidl_typesupport_c__pyext
+[45.217s] [ 96%] [32mBuilding C object CMakeFiles/my_msg_types__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msg_types/_my_msg_types_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[45.519s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/my_msg_types/my_msg_types_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[45.956s] [100%] Built target my_msg_types__rosidl_typesupport_fastrtps_c__pyext
+[45.991s] Invoked command in '/home/dev/ros2_ws/build/my_msg_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy /usr/bin/cmake --build /home/dev/ros2_ws/build/my_msg_types -- -j2 -l2
+[46.120s] Invoking command in '/home/dev/ros2_ws/build/my_msg_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy /usr/bin/cmake --install /home/dev/ros2_ws/build/my_msg_types
+[46.151s] -- Install configuration: "RelWithDebInfo"
+[46.154s] -- Execute custom install script
+[46.155s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/ament_index/resource_index/rosidl_interfaces/my_msg_types
+[46.186s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__functions.h
+[46.211s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__struct.h
+[46.235s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__type_support.h
+[46.262s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/my_msg.h
+[46.289s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/rosidl_generator_c__visibility_control.h
+[46.315s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/library_path.sh
+[46.340s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/library_path.dsv
+[46.378s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__rosidl_typesupport_fastrtps_c.h
+[46.418s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[46.463s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_fastrtps_c.so
+[46.517s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[46.567s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[46.614s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_fastrtps_cpp.so
+[46.684s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__rosidl_typesupport_introspection_c.h
+[46.730s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[46.787s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__builder.hpp
+[46.840s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__struct.hpp
+[46.892s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__traits.hpp
+[46.937s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/my_msg.hpp
+[46.985s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/include/my_msg_types/msg/detail/my_msg__rosidl_typesupport_introspection_cpp.hpp
+[47.035s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/pythonpath.sh
+[47.079s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/pythonpath.dsv
+[47.126s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages/my_msg_types/__init__.py
+[47.175s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages/my_msg_types/msg/__init__.py
+[47.225s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages/my_msg_types/msg/_my_msg.py
+[47.275s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages/my_msg_types/my_msg_types_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[47.315s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages/my_msg_types/my_msg_types_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[47.358s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages/my_msg_types/my_msg_types_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[47.403s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__python.so
+[47.455s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/msg/MyMsg.idl
+[47.501s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/msg/MyMsg.msg
+[47.541s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/ament_index/resource_index/package_run_dependencies/my_msg_types
+[47.582s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/ament_index/resource_index/parent_prefix_path/my_msg_types
+[47.626s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/ament_prefix_path.sh
+[47.672s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/ament_prefix_path.dsv
+[47.721s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/path.sh
+[47.762s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/environment/path.dsv
+[47.806s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/local_setup.bash
+[47.849s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/local_setup.sh
+[47.893s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/local_setup.zsh
+[47.937s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/local_setup.dsv
+[47.984s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/package.dsv
+[48.028s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/ament_index/resource_index/packages/my_msg_types
+[48.070s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/rosidl_cmake-extras.cmake
+[48.115s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.158s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/ament_cmake_export_libraries-extras.cmake
+[48.200s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/ament_cmake_export_targets-extras.cmake
+[48.247s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.302s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[48.343s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[48.388s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_typesConfig.cmake
+[48.431s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_typesConfig-version.cmake
+[48.477s] -- Symlinking: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/package.xml
+[48.528s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_generator_c.so
+[48.533s] -- Set runtime path of "/home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_generator_c.so" to ""
+[48.539s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_introspection_c.so
+[48.543s] -- Set runtime path of "/home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_introspection_c.so" to ""
+[48.550s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_c.so
+[48.556s] -- Set runtime path of "/home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_c.so" to ""
+[48.561s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_introspection_cpp.so
+[48.569s] -- Set runtime path of "/home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_introspection_cpp.so" to ""
+[48.577s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_cpp.so
+[48.583s] -- Set runtime path of "/home/dev/ros2_ws/install/my_msg_types/lib/libmy_msg_types__rosidl_typesupport_cpp.so" to ""
+[48.737s] Compiling '/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages/my_msg_types/__init__.py'...
+[48.765s] -- Up-to-date: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_generator_cExport.cmake
+[48.765s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_generator_cExport-relwithdebinfo.cmake
+[48.766s] -- Up-to-date: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_introspection_cExport.cmake
+[48.766s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[48.766s] -- Up-to-date: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_cExport.cmake
+[48.766s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[48.767s] -- Up-to-date: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_generator_cppExport.cmake
+[48.767s] -- Up-to-date: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_introspection_cppExport.cmake
+[48.767s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[48.767s] -- Up-to-date: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_cppExport.cmake
+[48.768s] -- Installing: /home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake/my_msg_types__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[48.776s] Invoked command in '/home/dev/ros2_ws/build/my_msg_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy /usr/bin/cmake --install /home/dev/ros2_ws/build/my_msg_types

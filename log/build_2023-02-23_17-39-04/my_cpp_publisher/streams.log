@@ -1,0 +1,45 @@
+[0.388s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/dev/ros2_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[0.451s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.484s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.764s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.304s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[19.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.447s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[19.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.668s] -- Found my_msg_types: 0.0.0 (/home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake)
+[19.683s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[19.825s] -- Added test 'copyright' to check source files copyright and LICENSE
+[19.827s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.827s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dev/ros2_ws/src/my_cpp_publisher/include>
+[19.828s] -- Configured cppcheck exclude dirs and/or files: 
+[19.829s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.830s] -- Configured cpplint exclude dirs and/or files: 
+[19.831s] -- Added test 'lint_cmake' to check CMake code style
+[19.833s] -- Added test 'uncrustify' to check C / C++ code style
+[19.833s] -- Configured uncrustify additional arguments: 
+[19.834s] -- Added test 'xmllint' to check XML markup files
+[19.840s] -- Configuring done
+[19.856s] -- Generating done
+[19.861s] -- Build files have been written to: /home/dev/ros2_ws/build/my_cpp_publisher
+[19.950s] [100%] Built target my_cpp_publisher_node
+[19.977s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/dev/ros2_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[20.036s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/dev/ros2_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ros2_ws/build/my_cpp_publisher
+[20.054s] -- Install configuration: ""
+[20.055s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node
+[20.056s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/my_cpp_publisher
+[20.056s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/my_cpp_publisher
+[20.057s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.sh
+[20.057s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.dsv
+[20.057s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.sh
+[20.057s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.dsv
+[20.058s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.bash
+[20.058s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.sh
+[20.058s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.zsh
+[20.058s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.dsv
+[20.058s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.dsv
+[20.059s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/packages/my_cpp_publisher
+[20.059s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig.cmake
+[20.059s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig-version.cmake
+[20.059s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.xml
+[20.070s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/opt/ros/foxy LD_LIBRARY_PATH=/home/dev/ros2_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ros2_ws/build/my_cpp_publisher

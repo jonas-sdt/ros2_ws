@@ -1,0 +1,378 @@
+[0.000000] (-) TimerEvent: {}
+[0.002208] (my_cpp_publisher) JobQueued: {'identifier': 'my_cpp_publisher', 'dependencies': OrderedDict()}
+[0.002342] (my_msg_types) JobQueued: {'identifier': 'my_msg_types', 'dependencies': OrderedDict()}
+[0.002446] (my_python_subscriber) JobQueued: {'identifier': 'my_python_subscriber', 'dependencies': OrderedDict()}
+[0.002486] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict()}
+[0.002568] (my_cpp_publisher) JobStarted: {'identifier': 'my_cpp_publisher'}
+[0.022933] (my_msg_types) JobStarted: {'identifier': 'my_msg_types'}
+[0.045862] (my_cpp_publisher) JobProgress: {'identifier': 'my_cpp_publisher', 'progress': 'cmake'}
+[0.048249] (my_cpp_publisher) JobProgress: {'identifier': 'my_cpp_publisher', 'progress': 'build'}
+[0.050234] (my_cpp_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev/ros2_ws/build/my_cpp_publisher', '--', '-j2', '-l2'], 'cwd': '/home/dev/ros2_ws/build/my_cpp_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/dev'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dev/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('PS2', '\\[\x1b[37m\\]> \\[\x1b[0m\\]'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dev'), ('NAME', 'Jonas-Surface'), ('WSL_INTEROP', '/run/WSL/9281_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/dev/.cargo/bin:/home/dev/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/PowerShell/7:/mnt/c/Users/JSCHB/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/JSCHB/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '71bf92ad-6e1d-4098-b470-74d5953d29d0'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('POSH_CURSOR_LINE', '43'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dev/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('POSH_THEME', '/home/dev/.config/oh-my-posh/theme.json'), ('PWD', '/home/dev/ros2_ws/build/my_cpp_publisher'), ('POSH_CURSOR_COLUMN', '1'), ('CONDA_EXE', '/home/dev/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('POSH_PID', '9282'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.063691] (my_msg_types) JobProgress: {'identifier': 'my_msg_types', 'progress': 'cmake'}
+[0.065390] (my_msg_types) Command: {'cmd': ['/usr/bin/cmake', '/home/dev/ros2_ws/src/my_msg_types', '-DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/my_msg_types'], 'cwd': '/home/dev/ros2_ws/build/my_msg_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/dev'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dev/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('PS2', '\\[\x1b[37m\\]> \\[\x1b[0m\\]'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dev'), ('NAME', 'Jonas-Surface'), ('WSL_INTEROP', '/run/WSL/9281_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/dev/.cargo/bin:/home/dev/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/PowerShell/7:/mnt/c/Users/JSCHB/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/JSCHB/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '71bf92ad-6e1d-4098-b470-74d5953d29d0'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('POSH_CURSOR_LINE', '43'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dev/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('POSH_THEME', '/home/dev/.config/oh-my-posh/theme.json'), ('PWD', '/home/dev/ros2_ws/build/my_msg_types'), ('POSH_CURSOR_COLUMN', '1'), ('CONDA_EXE', '/home/dev/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('POSH_PID', '9282'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099567] (my_msg_types) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.100071] (-) TimerEvent: {}
+[0.135507] (my_cpp_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_cpp_publisher_node\x1b[0m\n'}
+[0.140032] (my_msg_types) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.166336] (my_cpp_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o\x1b[0m\n'}
+[0.200289] (-) TimerEvent: {}
+[0.242386] (my_cpp_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_cpp_publisher_node\x1b[0m\n'}
+[0.300449] (-) TimerEvent: {}
+[0.400946] (-) TimerEvent: {}
+[0.480352] (my_msg_types) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.483912] (my_msg_types) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.489872] (my_msg_types) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.501111] (-) TimerEvent: {}
+[0.548106] (my_cpp_publisher) StdoutLine: {'line': b'[100%] Built target my_cpp_publisher_node\n'}
+[0.566738] (my_cpp_publisher) CommandEnded: {'returncode': 0}
+[0.601439] (-) TimerEvent: {}
+[0.610908] (my_cpp_publisher) JobProgress: {'identifier': 'my_cpp_publisher', 'progress': 'install'}
+[0.633671] (my_cpp_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev/ros2_ws/build/my_cpp_publisher'], 'cwd': '/home/dev/ros2_ws/build/my_cpp_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/dev'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dev/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('PS2', '\\[\x1b[37m\\]> \\[\x1b[0m\\]'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dev'), ('NAME', 'Jonas-Surface'), ('WSL_INTEROP', '/run/WSL/9281_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/dev/.cargo/bin:/home/dev/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/PowerShell/7:/mnt/c/Users/JSCHB/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/JSCHB/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '71bf92ad-6e1d-4098-b470-74d5953d29d0'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('POSH_CURSOR_LINE', '43'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dev/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('POSH_THEME', '/home/dev/.config/oh-my-posh/theme.json'), ('PWD', '/home/dev/ros2_ws/build/my_cpp_publisher'), ('POSH_CURSOR_COLUMN', '1'), ('CONDA_EXE', '/home/dev/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('POSH_PID', '9282'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.662421] (my_cpp_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.663660] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node\n'}
+[0.665038] (my_cpp_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/dev/ros2_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node" to ""\n'}
+[0.666487] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/my_cpp_publisher\n'}
+[0.667115] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/my_cpp_publisher\n'}
+[0.668127] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.sh\n'}
+[0.668503] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.dsv\n'}
+[0.668777] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.sh\n'}
+[0.669435] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.dsv\n'}
+[0.669635] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.bash\n'}
+[0.670279] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.sh\n'}
+[0.670586] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.zsh\n'}
+[0.671105] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.dsv\n'}
+[0.671374] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.dsv\n'}
+[0.671634] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/packages/my_cpp_publisher\n'}
+[0.672446] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig.cmake\n'}
+[0.673332] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig-version.cmake\n'}
+[0.673962] (my_cpp_publisher) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.xml\n'}
+[0.679330] (my_cpp_publisher) CommandEnded: {'returncode': 0}
+[0.702413] (-) TimerEvent: {}
+[0.804874] (-) TimerEvent: {}
+[0.825040] (my_cpp_publisher) JobEnded: {'identifier': 'my_cpp_publisher', 'rc': 0}
+[0.826538] (my_python_subscriber) JobStarted: {'identifier': 'my_python_subscriber'}
+[0.905367] (-) TimerEvent: {}
+[1.006289] (-) TimerEvent: {}
+[1.106814] (-) TimerEvent: {}
+[1.207252] (-) TimerEvent: {}
+[1.307813] (-) TimerEvent: {}
+[1.408421] (-) TimerEvent: {}
+[1.509409] (-) TimerEvent: {}
+[1.610042] (-) TimerEvent: {}
+[1.710592] (-) TimerEvent: {}
+[1.811361] (-) TimerEvent: {}
+[1.912008] (-) TimerEvent: {}
+[2.012703] (-) TimerEvent: {}
+[2.113481] (-) TimerEvent: {}
+[2.214112] (-) TimerEvent: {}
+[2.314943] (-) TimerEvent: {}
+[2.415899] (-) TimerEvent: {}
+[2.516607] (-) TimerEvent: {}
+[2.617483] (-) TimerEvent: {}
+[2.718229] (-) TimerEvent: {}
+[2.813127] (my_python_subscriber) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_python_subscriber', 'build', '--build-base', '/home/dev/ros2_ws/build/my_python_subscriber/build', 'install', '--record', '/home/dev/ros2_ws/build/my_python_subscriber/install.log', '--install-scripts', '$base/lib/my_python_subscriber', '--single-version-externally-managed'], 'cwd': '/home/dev/ros2_ws/src/my_python_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dev', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'POWERLINE_COMMAND': 'oh-my-posh', 'WT_PROFILE_ID': '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}', 'HOME': '/home/dev', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/dev/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'PS2': '\\[\x1b[37m\\]> \\[\x1b[0m\\]', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dev', 'NAME': 'Jonas-Surface', 'WSL_INTEROP': '/run/WSL/9281_interop', 'PULSE_SERVER': '/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/dev/.cargo/bin:/home/dev/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/PowerShell/7:/mnt/c/Users/JSCHB/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/JSCHB/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '71bf92ad-6e1d-4098-b470-74d5953d29d0', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'POSH_CURSOR_LINE': '43', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/dev/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'POSH_THEME': '/home/dev/.config/oh-my-posh/theme.json', 'PWD': '/home/dev/ros2_ws/build/my_python_subscriber', 'POSH_CURSOR_COLUMN': '1', 'CONDA_EXE': '/home/dev/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'POSH_PID': '9282', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[2.819006] (-) TimerEvent: {}
+[2.920014] (-) TimerEvent: {}
+[3.020707] (-) TimerEvent: {}
+[3.121353] (-) TimerEvent: {}
+[3.221749] (-) TimerEvent: {}
+[3.322140] (-) TimerEvent: {}
+[3.325587] (my_python_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[3.326688] (my_python_subscriber) StdoutLine: {'line': b'creating ../../build/my_python_subscriber/my_python_subscriber.egg-info\n'}
+[3.327168] (my_python_subscriber) StdoutLine: {'line': b'writing ../../build/my_python_subscriber/my_python_subscriber.egg-info/PKG-INFO\n'}
+[3.327586] (my_python_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/my_python_subscriber/my_python_subscriber.egg-info/dependency_links.txt\n'}
+[3.327803] (my_python_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/my_python_subscriber/my_python_subscriber.egg-info/entry_points.txt\n'}
+[3.327981] (my_python_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/my_python_subscriber/my_python_subscriber.egg-info/requires.txt\n'}
+[3.328145] (my_python_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/my_python_subscriber/my_python_subscriber.egg-info/top_level.txt\n'}
+[3.330440] (my_python_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'\n"}
+[3.413043] (my_python_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'\n"}
+[3.414996] (my_python_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'\n"}
+[3.415354] (my_python_subscriber) StdoutLine: {'line': b'running build\n'}
+[3.415542] (my_python_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[3.415767] (my_python_subscriber) StdoutLine: {'line': b'creating /home/dev/ros2_ws/build/my_python_subscriber/build\n'}
+[3.416032] (my_python_subscriber) StdoutLine: {'line': b'creating /home/dev/ros2_ws/build/my_python_subscriber/build/lib\n'}
+[3.416273] (my_python_subscriber) StdoutLine: {'line': b'creating /home/dev/ros2_ws/build/my_python_subscriber/build/lib/my_python_subscriber\n'}
+[3.416638] (my_python_subscriber) StdoutLine: {'line': b'copying my_python_subscriber/__init__.py -> /home/dev/ros2_ws/build/my_python_subscriber/build/lib/my_python_subscriber\n'}
+[3.416918] (my_python_subscriber) StdoutLine: {'line': b'copying my_python_subscriber/my_python_subscriber_node.py -> /home/dev/ros2_ws/build/my_python_subscriber/build/lib/my_python_subscriber\n'}
+[3.417453] (my_python_subscriber) StdoutLine: {'line': b'running install\n'}
+[3.419579] (my_python_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[3.421916] (my_python_subscriber) StdoutLine: {'line': b'creating /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber\n'}
+[3.422214] (-) TimerEvent: {}
+[3.422755] (my_python_subscriber) StdoutLine: {'line': b'copying /home/dev/ros2_ws/build/my_python_subscriber/build/lib/my_python_subscriber/__init__.py -> /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber\n'}
+[3.423073] (my_python_subscriber) StdoutLine: {'line': b'copying /home/dev/ros2_ws/build/my_python_subscriber/build/lib/my_python_subscriber/my_python_subscriber_node.py -> /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber\n'}
+[3.424067] (my_python_subscriber) StdoutLine: {'line': b'byte-compiling /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber/__init__.py to __init__.cpython-38.pyc\n'}
+[3.427242] (my_python_subscriber) StdoutLine: {'line': b'byte-compiling /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber/my_python_subscriber_node.py to my_python_subscriber_node.cpython-38.pyc\n'}
+[3.427793] (my_python_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[3.428933] (my_python_subscriber) StdoutLine: {'line': b'creating /home/dev/ros2_ws/install/my_python_subscriber/share/ament_index\n'}
+[3.429380] (my_python_subscriber) StdoutLine: {'line': b'creating /home/dev/ros2_ws/install/my_python_subscriber/share/ament_index/resource_index\n'}
+[3.429772] (my_python_subscriber) StdoutLine: {'line': b'creating /home/dev/ros2_ws/install/my_python_subscriber/share/ament_index/resource_index/packages\n'}
+[3.430136] (my_python_subscriber) StdoutLine: {'line': b'copying resource/my_python_subscriber -> /home/dev/ros2_ws/install/my_python_subscriber/share/ament_index/resource_index/packages\n'}
+[3.430534] (my_python_subscriber) StdoutLine: {'line': b'copying package.xml -> /home/dev/ros2_ws/install/my_python_subscriber/share/my_python_subscriber\n'}
+[3.430706] (my_python_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.434912] (my_python_subscriber) StdoutLine: {'line': b'Copying ../../build/my_python_subscriber/my_python_subscriber.egg-info to /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber-0.0.0-py3.8.egg-info\n'}
+[3.437571] (my_python_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[3.487572] (my_python_subscriber) StdoutLine: {'line': b'Installing my_python_subscriber_node script to /home/dev/ros2_ws/install/my_python_subscriber/lib/my_python_subscriber\n'}
+[3.488671] (my_python_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/dev/ros2_ws/build/my_python_subscriber/install.log'\n"}
+[3.522476] (-) TimerEvent: {}
+[3.547121] (my_python_subscriber) CommandEnded: {'returncode': 0}
+[3.578532] (my_python_subscriber) JobEnded: {'identifier': 'my_python_subscriber', 'rc': 0}
+[3.582446] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[3.597879] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'cmake'}
+[3.602715] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/dev/ros2_ws/src/my_robot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/my_robot_bringup'], 'cwd': '/home/dev/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/dev'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dev/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('PS2', '\\[\x1b[37m\\]> \\[\x1b[0m\\]'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dev'), ('NAME', 'Jonas-Surface'), ('WSL_INTEROP', '/run/WSL/9281_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/dev/.cargo/bin:/home/dev/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/PowerShell/7:/mnt/c/Users/JSCHB/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/JSCHB/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '71bf92ad-6e1d-4098-b470-74d5953d29d0'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('POSH_CURSOR_LINE', '43'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dev/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('POSH_THEME', '/home/dev/.config/oh-my-posh/theme.json'), ('PWD', '/home/dev/ros2_ws/build/my_robot_bringup'), ('POSH_CURSOR_COLUMN', '1'), ('CONDA_EXE', '/home/dev/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('POSH_PID', '9282'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.622745] (-) TimerEvent: {}
+[3.723475] (-) TimerEvent: {}
+[3.824090] (-) TimerEvent: {}
+[3.924904] (-) TimerEvent: {}
+[4.025895] (-) TimerEvent: {}
+[4.127154] (-) TimerEvent: {}
+[4.228644] (-) TimerEvent: {}
+[4.330008] (-) TimerEvent: {}
+[4.431019] (-) TimerEvent: {}
+[4.440066] (my_robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[4.531535] (-) TimerEvent: {}
+[4.632451] (-) TimerEvent: {}
+[4.733665] (-) TimerEvent: {}
+[4.835303] (-) TimerEvent: {}
+[4.936865] (-) TimerEvent: {}
+[5.038241] (-) TimerEvent: {}
+[5.139402] (-) TimerEvent: {}
+[5.240981] (-) TimerEvent: {}
+[5.341985] (-) TimerEvent: {}
+[5.442881] (-) TimerEvent: {}
+[5.544729] (-) TimerEvent: {}
+[5.646024] (-) TimerEvent: {}
+[5.747569] (-) TimerEvent: {}
+[5.848658] (-) TimerEvent: {}
+[5.949755] (-) TimerEvent: {}
+[6.004314] (my_robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.050591] (-) TimerEvent: {}
+[6.152406] (-) TimerEvent: {}
+[6.253641] (-) TimerEvent: {}
+[6.354459] (-) TimerEvent: {}
+[6.455160] (-) TimerEvent: {}
+[6.556088] (-) TimerEvent: {}
+[6.567856] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.656284] (-) TimerEvent: {}
+[6.757058] (-) TimerEvent: {}
+[6.857777] (-) TimerEvent: {}
+[6.958812] (-) TimerEvent: {}
+[7.060177] (-) TimerEvent: {}
+[7.161503] (-) TimerEvent: {}
+[7.207639] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[7.213339] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.261786] (-) TimerEvent: {}
+[7.362910] (-) TimerEvent: {}
+[7.463481] (-) TimerEvent: {}
+[7.564200] (-) TimerEvent: {}
+[7.665178] (-) TimerEvent: {}
+[7.766332] (-) TimerEvent: {}
+[7.867879] (-) TimerEvent: {}
+[7.904441] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.967288] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.967920] (-) TimerEvent: {}
+[7.968987] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.982116] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[8.068478] (-) TimerEvent: {}
+[8.169116] (-) TimerEvent: {}
+[8.269979] (-) TimerEvent: {}
+[8.372032] (-) TimerEvent: {}
+[8.473208] (-) TimerEvent: {}
+[8.574279] (-) TimerEvent: {}
+[8.676480] (-) TimerEvent: {}
+[8.739780] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.745322] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.776923] (-) TimerEvent: {}
+[8.877894] (-) TimerEvent: {}
+[8.979097] (-) TimerEvent: {}
+[9.080034] (-) TimerEvent: {}
+[9.181080] (-) TimerEvent: {}
+[9.282496] (-) TimerEvent: {}
+[9.384423] (-) TimerEvent: {}
+[9.485357] (-) TimerEvent: {}
+[9.586343] (-) TimerEvent: {}
+[9.616735] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.676344] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.678911] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.686577] (-) TimerEvent: {}
+[9.687861] (my_robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[9.786895] (-) TimerEvent: {}
+[9.787276] (my_robot_bringup) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.787709] (my_robot_bringup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.887090] (-) TimerEvent: {}
+[9.987564] (-) TimerEvent: {}
+[10.088094] (-) TimerEvent: {}
+[10.179242] (my_robot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.188215] (-) TimerEvent: {}
+[10.288607] (-) TimerEvent: {}
+[10.320709] (my_robot_bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.324167] (my_robot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.326115] (my_robot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.330480] (my_robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.336423] (my_robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[10.337845] (my_robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/dev/ros2_ws/build/my_robot_bringup\n'}
+[10.344046] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[10.348951] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'build'}
+[10.349665] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev/ros2_ws/build/my_robot_bringup', '--', '-j2', '-l2'], 'cwd': '/home/dev/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/dev'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dev/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('PS2', '\\[\x1b[37m\\]> \\[\x1b[0m\\]'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dev'), ('NAME', 'Jonas-Surface'), ('WSL_INTEROP', '/run/WSL/9281_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/dev/.cargo/bin:/home/dev/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/PowerShell/7:/mnt/c/Users/JSCHB/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/JSCHB/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '71bf92ad-6e1d-4098-b470-74d5953d29d0'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('POSH_CURSOR_LINE', '43'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dev/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('POSH_THEME', '/home/dev/.config/oh-my-posh/theme.json'), ('PWD', '/home/dev/ros2_ws/build/my_robot_bringup'), ('POSH_CURSOR_COLUMN', '1'), ('CONDA_EXE', '/home/dev/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('POSH_PID', '9282'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.388886] (-) TimerEvent: {}
+[10.450479] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[10.489118] (-) TimerEvent: {}
+[10.507054] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'install'}
+[10.510563] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev/ros2_ws/build/my_robot_bringup'], 'cwd': '/home/dev/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/dev'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dev/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('PS2', '\\[\x1b[37m\\]> \\[\x1b[0m\\]'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dev'), ('NAME', 'Jonas-Surface'), ('WSL_INTEROP', '/run/WSL/9281_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/dev/.cargo/bin:/home/dev/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files/PowerShell/7:/mnt/c/Users/JSCHB/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/JSCHB/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '71bf92ad-6e1d-4098-b470-74d5953d29d0'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('POSH_CURSOR_LINE', '43'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/dev/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('POSH_THEME', '/home/dev/.config/oh-my-posh/theme.json'), ('PWD', '/home/dev/ros2_ws/build/my_robot_bringup'), ('POSH_CURSOR_COLUMN', '1'), ('CONDA_EXE', '/home/dev/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('POSH_PID', '9282'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.533256] (my_robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.535575] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup\n'}
+[10.537363] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup\n'}
+[10.539133] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh\n'}
+[10.539549] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv\n'}
+[10.540126] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh\n'}
+[10.540308] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv\n'}
+[10.540560] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash\n'}
+[10.540998] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh\n'}
+[10.541400] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh\n'}
+[10.541851] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv\n'}
+[10.542133] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv\n'}
+[10.543348] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup\n'}
+[10.544329] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake\n'}
+[10.544991] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake\n'}
+[10.545651] (my_robot_bringup) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml\n'}
+[10.555856] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[10.589476] (-) TimerEvent: {}
+[10.675067] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 0}
+[10.689632] (-) TimerEvent: {}
+[10.790674] (-) TimerEvent: {}
+[10.892026] (-) TimerEvent: {}
+[10.993224] (-) TimerEvent: {}
+[11.094438] (-) TimerEvent: {}
+[11.195717] (-) TimerEvent: {}
+[11.296773] (-) TimerEvent: {}
+[11.397504] (-) TimerEvent: {}
+[11.498361] (-) TimerEvent: {}
+[11.599346] (-) TimerEvent: {}
+[11.700124] (-) TimerEvent: {}
+[11.800908] (-) TimerEvent: {}
+[11.901497] (-) TimerEvent: {}
+[12.002273] (-) TimerEvent: {}
+[12.102870] (-) TimerEvent: {}
+[12.203795] (-) TimerEvent: {}
+[12.304784] (-) TimerEvent: {}
+[12.405672] (-) TimerEvent: {}
+[12.506432] (-) TimerEvent: {}
+[12.607176] (-) TimerEvent: {}
+[12.707992] (-) TimerEvent: {}
+[12.808643] (-) TimerEvent: {}
+[12.909390] (-) TimerEvent: {}
+[13.010400] (-) TimerEvent: {}
+[13.111275] (-) TimerEvent: {}
+[13.212144] (-) TimerEvent: {}
+[13.313106] (-) TimerEvent: {}
+[13.414036] (-) TimerEvent: {}
+[13.514860] (-) TimerEvent: {}
+[13.615679] (-) TimerEvent: {}
+[13.716499] (-) TimerEvent: {}
+[13.817377] (-) TimerEvent: {}
+[13.918046] (-) TimerEvent: {}
+[14.018723] (-) TimerEvent: {}
+[14.119424] (-) TimerEvent: {}
+[14.220176] (-) TimerEvent: {}
+[14.321203] (-) TimerEvent: {}
+[14.422159] (-) TimerEvent: {}
+[14.522880] (-) TimerEvent: {}
+[14.623627] (-) TimerEvent: {}
+[14.724312] (-) TimerEvent: {}
+[14.825132] (-) TimerEvent: {}
+[14.925931] (-) TimerEvent: {}
+[15.026677] (-) TimerEvent: {}
+[15.127412] (-) TimerEvent: {}
+[15.228130] (-) TimerEvent: {}
+[15.328889] (-) TimerEvent: {}
+[15.429657] (-) TimerEvent: {}
+[15.530337] (-) TimerEvent: {}
+[15.631022] (-) TimerEvent: {}
+[15.731789] (-) TimerEvent: {}
+[15.832548] (-) TimerEvent: {}
+[15.933245] (-) TimerEvent: {}
+[16.034034] (-) TimerEvent: {}
+[16.134809] (-) TimerEvent: {}
+[16.235693] (-) TimerEvent: {}
+[16.336475] (-) TimerEvent: {}
+[16.437569] (-) TimerEvent: {}
+[16.538398] (-) TimerEvent: {}
+[16.639077] (-) TimerEvent: {}
+[16.739836] (-) TimerEvent: {}
+[16.840731] (-) TimerEvent: {}
+[16.941457] (-) TimerEvent: {}
+[17.042087] (-) TimerEvent: {}
+[17.142837] (-) TimerEvent: {}
+[17.243457] (-) TimerEvent: {}
+[17.344157] (-) TimerEvent: {}
+[17.444888] (-) TimerEvent: {}
+[17.545890] (-) TimerEvent: {}
+[17.646931] (-) TimerEvent: {}
+[17.747649] (-) TimerEvent: {}
+[17.848741] (-) TimerEvent: {}
+[17.949433] (-) TimerEvent: {}
+[18.050131] (-) TimerEvent: {}
+[18.151126] (-) TimerEvent: {}
+[18.251873] (-) TimerEvent: {}
+[18.352821] (-) TimerEvent: {}
+[18.453948] (-) TimerEvent: {}
+[18.554874] (-) TimerEvent: {}
+[18.655536] (-) TimerEvent: {}
+[18.756376] (-) TimerEvent: {}
+[18.857439] (-) TimerEvent: {}
+[18.958088] (-) TimerEvent: {}
+[19.058870] (-) TimerEvent: {}
+[19.159574] (-) TimerEvent: {}
+[19.260743] (-) TimerEvent: {}
+[19.361479] (-) TimerEvent: {}
+[19.419083] (my_msg_types) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.461739] (-) TimerEvent: {}
+[19.534511] (my_msg_types) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[19.562009] (-) TimerEvent: {}
+[19.662617] (-) TimerEvent: {}
+[19.763369] (-) TimerEvent: {}
+[19.863905] (-) TimerEvent: {}
+[19.933770] (my_msg_types) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[19.934160] (my_msg_types) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[19.934334] (my_msg_types) StderrLine: {'line': b'  my_msg_types --arguments-file\n'}
+[19.934486] (my_msg_types) StderrLine: {'line': b'  /home/dev/ros2_ws/build/my_msg_types/rosidl_adapter__arguments__my_msg_types.json\n'}
+[19.934659] (my_msg_types) StderrLine: {'line': b'  --output-dir\n'}
+[19.934820] (my_msg_types) StderrLine: {'line': b'  /home/dev/ros2_ws/build/my_msg_types/rosidl_adapter/my_msg_types\n'}
+[19.934963] (my_msg_types) StderrLine: {'line': b'  --output-file\n'}
+[19.935102] (my_msg_types) StderrLine: {'line': b'  /home/dev/ros2_ws/build/my_msg_types/rosidl_adapter/my_msg_types.idls)\n'}
+[19.935243] (my_msg_types) StderrLine: {'line': b'  returned error code 1:\n'}
+[19.935384] (my_msg_types) StderrLine: {'line': b'\n'}
+[19.935530] (my_msg_types) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[19.935689] (my_msg_types) StderrLine: {'line': b'\n'}
+[19.935829] (my_msg_types) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[19.935969] (my_msg_types) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[19.936109] (my_msg_types) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[19.936246] (my_msg_types) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[19.936385] (my_msg_types) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[19.936526] (my_msg_types) StderrLine: {'line': b'      sys.exit(main())\n'}
+[19.936873] (my_msg_types) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[19.937163] (my_msg_types) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[19.937329] (my_msg_types) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[19.937482] (my_msg_types) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[19.937631] (my_msg_types) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[19.937778] (my_msg_types) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[19.937922] (my_msg_types) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[19.938065] (my_msg_types) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[19.938214] (my_msg_types) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[19.938357] (my_msg_types) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[19.938500] (my_msg_types) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[19.938644] (my_msg_types) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[19.938839] (my_msg_types) StderrLine: {'line': b'\n'}
+[19.938985] (my_msg_types) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'my_msg' is an invalid message\n"}
+[19.939128] (my_msg_types) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[19.939271] (my_msg_types) StderrLine: {'line': b'\n'}
+[19.939412] (my_msg_types) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.939552] (my_msg_types) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[19.939701] (my_msg_types) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[19.939845] (my_msg_types) StderrLine: {'line': b'\n'}
+[19.939985] (my_msg_types) StderrLine: {'line': b'\n'}
+[19.940125] (my_msg_types) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[19.940284] (my_msg_types) StdoutLine: {'line': b'See also "/home/dev/ros2_ws/build/my_msg_types/CMakeFiles/CMakeOutput.log".\n'}
+[19.951171] (my_msg_types) CommandEnded: {'returncode': 1}
+[19.964290] (-) TimerEvent: {}
+[20.002385] (my_msg_types) JobEnded: {'identifier': 'my_msg_types', 'rc': 1}
+[20.014199] (-) EventReactorShutdown: {}

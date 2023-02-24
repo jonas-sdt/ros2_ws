@@ -1,0 +1,26 @@
+[0.466s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[0.564s] [35m[1mScanning dependencies of target my_cpp_publisher_node[0m
+[0.608s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o[0m
+[1.265s] [100%] [32m[1mLinking CXX executable my_cpp_publisher_node[0m
+[1.650s] [100%] Built target my_cpp_publisher_node
+[1.669s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[1.713s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dev/ros2_ws/build/my_cpp_publisher
+[1.729s] -- Install configuration: ""
+[1.731s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node
+[1.732s] -- Set runtime path of "/home/dev/ros2_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node" to ""
+[1.733s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/my_cpp_publisher
+[1.733s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/my_cpp_publisher
+[1.733s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.sh
+[1.734s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.dsv
+[1.734s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.sh
+[1.735s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.dsv
+[1.735s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.bash
+[1.735s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.sh
+[1.736s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.zsh
+[1.736s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.dsv
+[1.737s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.dsv
+[1.737s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/packages/my_cpp_publisher
+[1.737s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig.cmake
+[1.738s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig-version.cmake
+[1.738s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.xml
+[1.746s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dev/ros2_ws/build/my_cpp_publisher

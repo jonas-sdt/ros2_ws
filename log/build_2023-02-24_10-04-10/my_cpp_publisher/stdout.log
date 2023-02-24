@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found my_msg_types: 0.0.0 (/home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dev/ros2_ws/src/my_cpp_publisher/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dev/ros2_ws/build/my_cpp_publisher
+[35m[1mScanning dependencies of target my_cpp_publisher_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_cpp_publisher_node[0m
+[100%] Built target my_cpp_publisher_node
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/my_cpp_publisher
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/my_cpp_publisher
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.sh
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.dsv
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.bash
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.sh
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.zsh
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.dsv
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.dsv
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/packages/my_cpp_publisher
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig.cmake
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig-version.cmake
+-- Symlinking: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.xml

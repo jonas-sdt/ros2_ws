@@ -1,0 +1,22 @@
+[0.483s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[0.613s] [100%] Built target my_cpp_publisher_node
+[0.966s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[1.033s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dev/ros2_ws/build/my_cpp_publisher
+[1.057s] -- Install configuration: ""
+[1.058s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node
+[1.059s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/my_cpp_publisher
+[1.060s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/my_cpp_publisher
+[1.060s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.sh
+[1.062s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.dsv
+[1.062s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.sh
+[1.064s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.dsv
+[1.064s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.bash
+[1.064s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.sh
+[1.065s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.zsh
+[1.065s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.dsv
+[1.065s] -- Installing: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.dsv
+[1.065s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/ament_index/resource_index/packages/my_cpp_publisher
+[1.065s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig.cmake
+[1.066s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig-version.cmake
+[1.066s] -- Up-to-date: /home/dev/ros2_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.xml
+[1.075s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dev/ros2_ws/build/my_cpp_publisher

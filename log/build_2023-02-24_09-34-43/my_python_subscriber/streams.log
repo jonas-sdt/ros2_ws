@@ -1,0 +1,21 @@
+[2.042s] Invoking command in '/home/dev/ros2_ws/src/my_python_subscriber': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_subscriber build --build-base /home/dev/ros2_ws/build/my_python_subscriber/build install --record /home/dev/ros2_ws/build/my_python_subscriber/install.log --install-scripts $base/lib/my_python_subscriber --single-version-externally-managed
+[2.495s] running egg_info
+[2.496s] writing ../../build/my_python_subscriber/my_python_subscriber.egg-info/PKG-INFO
+[2.496s] writing dependency_links to ../../build/my_python_subscriber/my_python_subscriber.egg-info/dependency_links.txt
+[2.496s] writing entry points to ../../build/my_python_subscriber/my_python_subscriber.egg-info/entry_points.txt
+[2.497s] writing requirements to ../../build/my_python_subscriber/my_python_subscriber.egg-info/requires.txt
+[2.497s] writing top-level names to ../../build/my_python_subscriber/my_python_subscriber.egg-info/top_level.txt
+[2.570s] reading manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'
+[2.572s] writing manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'
+[2.572s] running build
+[2.572s] running build_py
+[2.572s] running install
+[2.574s] running install_lib
+[2.577s] running install_data
+[2.578s] running install_egg_info
+[2.582s] removing '/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[2.582s] Copying ../../build/my_python_subscriber/my_python_subscriber.egg-info to /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber-0.0.0-py3.8.egg-info
+[2.585s] running install_scripts
+[2.616s] Installing my_python_subscriber_node script to /home/dev/ros2_ws/install/my_python_subscriber/lib/my_python_subscriber
+[2.616s] writing list of installed files to '/home/dev/ros2_ws/build/my_python_subscriber/install.log'
+[2.658s] Invoked command in '/home/dev/ros2_ws/src/my_python_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_subscriber build --build-base /home/dev/ros2_ws/build/my_python_subscriber/build install --record /home/dev/ros2_ws/build/my_python_subscriber/install.log --install-scripts $base/lib/my_python_subscriber --single-version-externally-managed

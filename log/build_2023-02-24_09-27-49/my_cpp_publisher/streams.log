@@ -1,0 +1,34 @@
+[0.431s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[0.504s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.873s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.433s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[16.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.384s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[16.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.905s] -- Found my_msg_types: 0.0.0 (/home/dev/ros2_ws/install/my_msg_types/share/my_msg_types/cmake)
+[16.942s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.112s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.117s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.117s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dev/ros2_ws/src/my_cpp_publisher/include>
+[17.118s] -- Configured cppcheck exclude dirs and/or files: 
+[17.121s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[17.121s] -- Configured cpplint exclude dirs and/or files: 
+[17.125s] -- Added test 'lint_cmake' to check CMake code style
+[17.128s] -- Added test 'uncrustify' to check C / C++ code style
+[17.129s] -- Configured uncrustify additional arguments: 
+[17.130s] -- Added test 'xmllint' to check XML markup files
+[17.140s] -- Configuring done
+[17.176s] -- Generating done
+[17.182s] -- Build files have been written to: /home/dev/ros2_ws/build/my_cpp_publisher
+[17.250s] [35m[1mScanning dependencies of target my_cpp_publisher_node[0m
+[17.278s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o[0m
+[17.592s] [01m[K/home/dev/ros2_ws/src/my_cpp_publisher/src/my_cpp_publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_msg_types/msg/MyMsg.msg: No such file or directory
+[17.593s]     2 | #include [01;31m[K"my_msg_types/msg/MyMsg.msg"[m[K
+[17.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.593s] compilation terminated.
+[17.606s] make[2]: *** [CMakeFiles/my_cpp_publisher_node.dir/build.make:63: CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o] Error 1
+[17.607s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/my_cpp_publisher_node.dir/all] Error 2
+[17.607s] make: *** [Makefile:141: all] Error 2
+[17.618s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '2': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2

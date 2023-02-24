@@ -1,0 +1,49 @@
+[0.050s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev/ros2_ws/src/my_cpp_publisher -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/my_cpp_publisher
+[0.892s] -- The C compiler identification is GNU 9.4.0
+[2.191s] -- The CXX compiler identification is GNU 9.4.0
+[2.563s] -- Check for working C compiler: /usr/bin/cc
+[2.932s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.944s] -- Detecting C compiler ABI info
+[3.293s] -- Detecting C compiler ABI info - done
+[3.321s] -- Detecting C compile features
+[3.322s] -- Detecting C compile features - done
+[3.332s] -- Check for working CXX compiler: /usr/bin/c++
+[3.742s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.742s] -- Detecting CXX compiler ABI info
+[4.043s] -- Detecting CXX compiler ABI info - done
+[4.058s] -- Detecting CXX compile features
+[4.059s] -- Detecting CXX compile features - done
+[4.062s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.132s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.133s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.461s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.877s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.953s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.194s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.103s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.125s] -- Looking for pthread.h
+[13.633s] -- Looking for pthread.h - found
+[13.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.302s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.303s] -- Looking for pthread_create in pthreads
+[15.102s] -- Looking for pthread_create in pthreads - not found
+[15.103s] -- Looking for pthread_create in pthread
+[15.624s] -- Looking for pthread_create in pthread - found
+[15.627s] -- Found Threads: TRUE  
+[15.885s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[16.052s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.055s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.055s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dev/ros2_ws/src/my_cpp_publisher/include>
+[16.055s] -- Configured cppcheck exclude dirs and/or files: 
+[16.058s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.058s] -- Configured cpplint exclude dirs and/or files: 
+[16.060s] -- Added test 'lint_cmake' to check CMake code style
+[16.062s] -- Added test 'uncrustify' to check C / C++ code style
+[16.063s] -- Configured uncrustify additional arguments: 
+[16.064s] -- Added test 'xmllint' to check XML markup files
+[16.073s] -- Configuring done
+[16.091s] -- Generating done
+[16.094s] -- Build files have been written to: /home/dev/ros2_ws/build/my_cpp_publisher

@@ -1,0 +1,2 @@
+Invoking command in '/home/dev/ros2_ws/build/my_msg_types': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev/ros2_ws/src/my_msg_types -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/my_msg_types
+Invoked command in '/home/dev/ros2_ws/build/my_msg_types' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dev/ros2_ws/src/my_msg_types -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/my_msg_types

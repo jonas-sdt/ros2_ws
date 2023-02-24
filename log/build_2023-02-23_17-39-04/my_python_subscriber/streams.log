@@ -1,0 +1,22 @@
+[1.854s] Invoking command in '/home/dev/ros2_ws/src/my_python_subscriber': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types LD_LIBRARY_PATH=/home/dev/ros2_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_subscriber build --build-base /home/dev/ros2_ws/build/my_python_subscriber/build install --record /home/dev/ros2_ws/build/my_python_subscriber/install.log --install-scripts $base/lib/my_python_subscriber --single-version-externally-managed
+[2.282s] running egg_info
+[2.284s] writing ../../build/my_python_subscriber/my_python_subscriber.egg-info/PKG-INFO
+[2.284s] writing dependency_links to ../../build/my_python_subscriber/my_python_subscriber.egg-info/dependency_links.txt
+[2.284s] writing entry points to ../../build/my_python_subscriber/my_python_subscriber.egg-info/entry_points.txt
+[2.284s] writing requirements to ../../build/my_python_subscriber/my_python_subscriber.egg-info/requires.txt
+[2.285s] writing top-level names to ../../build/my_python_subscriber/my_python_subscriber.egg-info/top_level.txt
+[2.367s] reading manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'
+[2.368s] writing manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'
+[2.369s] running build
+[2.369s] running build_py
+[2.370s] running install
+[2.371s] running install_lib
+[2.375s] running install_data
+[2.376s] copying package.xml -> /home/dev/ros2_ws/install/my_python_subscriber/share/my_python_subscriber
+[2.376s] running install_egg_info
+[2.380s] removing '/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber-0.0.0-py3.8.egg-info' (and everything under it)
+[2.381s] Copying ../../build/my_python_subscriber/my_python_subscriber.egg-info to /home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages/my_python_subscriber-0.0.0-py3.8.egg-info
+[2.383s] running install_scripts
+[2.414s] Installing my_python_subscriber_node script to /home/dev/ros2_ws/install/my_python_subscriber/lib/my_python_subscriber
+[2.414s] writing list of installed files to '/home/dev/ros2_ws/build/my_python_subscriber/install.log'
+[2.461s] Invoked command in '/home/dev/ros2_ws/src/my_python_subscriber' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types LD_LIBRARY_PATH=/home/dev/ros2_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/build/my_python_subscriber/prefix_override:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_subscriber build --build-base /home/dev/ros2_ws/build/my_python_subscriber/build install --record /home/dev/ros2_ws/build/my_python_subscriber/install.log --install-scripts $base/lib/my_python_subscriber --single-version-externally-managed

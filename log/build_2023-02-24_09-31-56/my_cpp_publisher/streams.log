@@ -1,0 +1,11 @@
+[0.493s] Invoking command in '/home/dev/ros2_ws/build/my_cpp_publisher': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
+[0.582s] [35m[1mScanning dependencies of target my_cpp_publisher_node[0m
+[0.612s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o[0m
+[0.636s] [01m[K/home/dev/ros2_ws/src/my_cpp_publisher/src/my_cpp_publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_msg_types/msg/MyMsg.hpp: No such file or directory
+[0.636s]     2 | #include [01;31m[K"my_msg_types/msg/MyMsg.hpp"[m[K
+[0.636s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.636s] compilation terminated.
+[0.639s] make[2]: *** [CMakeFiles/my_cpp_publisher_node.dir/build.make:63: CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o] Error 1
+[0.639s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/my_cpp_publisher_node.dir/all] Error 2
+[0.642s] make: *** [Makefile:141: all] Error 2
+[0.987s] Invoked command in '/home/dev/ros2_ws/build/my_cpp_publisher' returned '2': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/my_msg_types:/home/dev/ros2_ws/install/my_robot_bringup:/home/dev/ros2_ws/install/my_cpp_publisher:/home/dev/ros2_ws/install/my_python_subscriber:/opt/ros/foxy PYTHONPATH=/home/dev/ros2_ws/install/my_msg_types/lib/python3.8/site-packages:/home/dev/ros2_ws/install/my_python_subscriber/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dev/ros2_ws/build/my_cpp_publisher -- -j2 -l2
