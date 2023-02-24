@@ -1,6 +1,6 @@
 #include <cstdio>
 #include "my_msg_types/msg/my_msg.hpp"
-#include "rclcpp/rclcpp.hpp"
+#include <rclcpp/rclcpp.hpp>
 #include <chrono>
 #include <functional>
 #include <memory>
@@ -12,8 +12,9 @@ class MyCppPublisher : public rclcpp::Node
 public:
     MyCppPublisher() : rclcpp::Node("my_cpp_publisher"), count_(0)
     {
-        publisher_ = this->create_publisher<my_msg_types::msg::MyMsg>("my_topic", 10);
+        publisher_ = this->create_publisher<my_msg_types::msg::MyMsg>("topic", 10);
         timer_ = this->create_wall_timer(500ms, std::bind(&MyCppPublisher::timer_callback, this));
+        timer2_ = this->create_wall_timer(1000ms, std::bind(&MyCppPublisher::timer2_callback, this));
     }
 private:
     void timer_callback()
@@ -28,8 +29,14 @@ private:
 
         publisher_->publish(message);
     }
+    
+    void timer2_callback()
+    {
+        RCLCPP_INFO(this->get_logger(), "Timer2 callback");
+    }
 
     rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::TimerBase::SharedPtr timer2_;
     rclcpp::Publisher<my_msg_types::msg::MyMsg>::SharedPtr publisher_;
     size_t count_;
 

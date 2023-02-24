@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/jos/Documents/ros_ws/build/my_cpp_publisher': AMENT_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:/opt/ros/humble LD_LIBRARY_PATH=/home/jos/Documents/ros_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jos/Documents/ros_ws/install/my_msg_types/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jos/Documents/ros_ws/build/my_cpp_publisher -- -j20 -l20
+[0.036s] [ 50%] [32mBuilding CXX object CMakeFiles/my_cpp_publisher_node.dir/src/my_cpp_publisher_node.cpp.o[0m
+[1.968s] [100%] [32m[1mLinking CXX executable my_cpp_publisher_node[0m
+[2.054s] [100%] Built target my_cpp_publisher_node
+[2.060s] Invoked command in '/home/jos/Documents/ros_ws/build/my_cpp_publisher' returned '0': AMENT_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:/opt/ros/humble LD_LIBRARY_PATH=/home/jos/Documents/ros_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jos/Documents/ros_ws/install/my_msg_types/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jos/Documents/ros_ws/build/my_cpp_publisher -- -j20 -l20
+[2.071s] Invoking command in '/home/jos/Documents/ros_ws/build/my_cpp_publisher': AMENT_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:/opt/ros/humble LD_LIBRARY_PATH=/home/jos/Documents/ros_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jos/Documents/ros_ws/install/my_msg_types/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jos/Documents/ros_ws/build/my_cpp_publisher
+[2.075s] -- Install configuration: ""
+[2.075s] -- Installing: /home/jos/Documents/ros_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node
+[2.075s] -- Set runtime path of "/home/jos/Documents/ros_ws/install/my_cpp_publisher/lib/my_cpp_publisher/my_cpp_publisher_node" to ""
+[2.075s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/my_cpp_publisher
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/my_cpp_publisher
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.sh
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/ament_prefix_path.dsv
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.sh
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/environment/path.dsv
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.bash
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.sh
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.zsh
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/local_setup.dsv
+[2.076s] -- Installing: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.dsv
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/ament_index/resource_index/packages/my_cpp_publisher
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig.cmake
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/cmake/my_cpp_publisherConfig-version.cmake
+[2.076s] -- Up-to-date: /home/jos/Documents/ros_ws/install/my_cpp_publisher/share/my_cpp_publisher/package.xml
+[2.078s] Invoked command in '/home/jos/Documents/ros_ws/build/my_cpp_publisher' returned '0': AMENT_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:/opt/ros/humble LD_LIBRARY_PATH=/home/jos/Documents/ros_ws/install/my_msg_types/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jos/Documents/ros_ws/install/my_msg_types/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jos/Documents/ros_ws/build/my_cpp_publisher

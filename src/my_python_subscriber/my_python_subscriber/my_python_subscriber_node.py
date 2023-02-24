@@ -1,4 +1,4 @@
-from my_msg_types import MyMsg
+from my_msg_types.msg import MyMsg
 import rclpy
 
 class MinimalSubscriber(rclpy.node):

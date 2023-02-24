@@ -1,0 +1,26 @@
+[0.306s] Invoking command in '/home/jos/Documents/ros_ws/src/my_python_subscriber': CMAKE_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:/home/jos/Documents/ros_ws/install/my_robot_bringup:/home/jos/Documents/ros_ws/install/my_cpp_publisher PYTHONPATH=/home/jos/Documents/ros_ws/build/my_python_subscriber/prefix_override:/home/jos/Documents/ros_ws/install/my_python_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_subscriber build --build-base /home/jos/Documents/ros_ws/build/my_python_subscriber/build install --record /home/jos/Documents/ros_ws/build/my_python_subscriber/install.log --install-scripts $base/lib/my_python_subscriber --single-version-externally-managed
+[0.412s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.412s]   warnings.warn(
+[0.416s] running egg_info
+[0.416s] writing ../../build/my_python_subscriber/my_python_subscriber.egg-info/PKG-INFO
+[0.417s] writing dependency_links to ../../build/my_python_subscriber/my_python_subscriber.egg-info/dependency_links.txt
+[0.417s] writing entry points to ../../build/my_python_subscriber/my_python_subscriber.egg-info/entry_points.txt
+[0.417s] writing requirements to ../../build/my_python_subscriber/my_python_subscriber.egg-info/requires.txt
+[0.417s] writing top-level names to ../../build/my_python_subscriber/my_python_subscriber.egg-info/top_level.txt
+[0.417s] reading manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'
+[0.418s] writing manifest file '../../build/my_python_subscriber/my_python_subscriber.egg-info/SOURCES.txt'
+[0.418s] running build
+[0.418s] running build_py
+[0.418s] running install
+[0.418s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.418s]   warnings.warn(
+[0.418s] running install_lib
+[0.419s] running install_data
+[0.419s] copying package.xml -> /home/jos/Documents/ros_ws/install/my_python_subscriber/share/my_python_subscriber
+[0.419s] running install_egg_info
+[0.420s] removing '/home/jos/Documents/ros_ws/install/my_python_subscriber/lib/python3.10/site-packages/my_python_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[0.420s] Copying ../../build/my_python_subscriber/my_python_subscriber.egg-info to /home/jos/Documents/ros_ws/install/my_python_subscriber/lib/python3.10/site-packages/my_python_subscriber-0.0.0-py3.10.egg-info
+[0.420s] running install_scripts
+[0.429s] Installing my_python_subscriber_node script to /home/jos/Documents/ros_ws/install/my_python_subscriber/lib/my_python_subscriber
+[0.430s] writing list of installed files to '/home/jos/Documents/ros_ws/build/my_python_subscriber/install.log'
+[0.441s] Invoked command in '/home/jos/Documents/ros_ws/src/my_python_subscriber' returned '0': CMAKE_PREFIX_PATH=/home/jos/Documents/ros_ws/install/my_msg_types:/home/jos/Documents/ros_ws/install/my_robot_bringup:/home/jos/Documents/ros_ws/install/my_cpp_publisher PYTHONPATH=/home/jos/Documents/ros_ws/build/my_python_subscriber/prefix_override:/home/jos/Documents/ros_ws/install/my_python_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_subscriber build --build-base /home/jos/Documents/ros_ws/build/my_python_subscriber/build install --record /home/jos/Documents/ros_ws/build/my_python_subscriber/install.log --install-scripts $base/lib/my_python_subscriber --single-version-externally-managed
